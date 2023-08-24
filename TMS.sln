@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TMS", "TMS.vbproj", "{55C76C61-A64D-4D6E-86F7-FA19EABD562D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAO", "DAO", "{77729894-6D54-4639-8296-27A06AEF643E}"
+	ProjectSection(SolutionItems) = preProject
+		AdministrationDAO.vb = AdministrationDAO.vb
+		COURSEDAO.vb = COURSEDAO.vb
+		EnNCADREURDAO.vb = EnNCADREURDAO.vb
+		stagiaireDAO.vb = stagiaireDAO.vb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LUNA", "LUNA", "{EA46EB46-7D47-4039-8653-00BF6CDC2B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BASE DAO", "BASE DAO", "{D2C60CD5-1843-4978-8373-0310324695D6}"
+	ProjectSection(SolutionItems) = preProject
+		LunaBaseClasses.vb = LunaBaseClasses.vb
+		LunaModule.vb = LunaModule.vb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MANAGER", "MANAGER", "{FAF91A35-98B8-469D-ACE0-D6E1158E0C6E}"
+	ProjectSection(SolutionItems) = preProject
+		Administration.vb = Administration.vb
+		COURSE.vb = COURSE.vb
+		ENCADREUR.vb = ENCADREUR.vb
+		stagiaire.vb = stagiaire.vb
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ALL", "ALL", "{C72ED06A-9624-472A-B0D5-2C5E6BAD35CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BIN", "BIN", "{4AAE891B-6D53-4101-B8F6-B5E5841F5A91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RESOURCES", "RESOURCES", "{63557E42-05AF-4CA0-A998-89BF12880F5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{8752AA25-D1DA-4E1A-90BD-E77412380E50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{8ABB8323-2FAB-473F-98BC-309A77AEB435}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55C76C61-A64D-4D6E-86F7-FA19EABD562D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55C76C61-A64D-4D6E-86F7-FA19EABD562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55C76C61-A64D-4D6E-86F7-FA19EABD562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55C76C61-A64D-4D6E-86F7-FA19EABD562D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8752AA25-D1DA-4E1A-90BD-E77412380E50} = {4AAE891B-6D53-4101-B8F6-B5E5841F5A91}
+		{8ABB8323-2FAB-473F-98BC-309A77AEB435} = {4AAE891B-6D53-4101-B8F6-B5E5841F5A91}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F466873B-8DBF-4CEB-9150-18B4C476090D}
+	EndGlobalSection
+EndGlobal
